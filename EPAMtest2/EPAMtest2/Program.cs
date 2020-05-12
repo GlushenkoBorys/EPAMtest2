@@ -12,7 +12,9 @@ namespace EPAMtest2
     {
         static void Main(string[] args)
         {
-            Resolve("В-городе-началась-весна");
+            string mystr = Resolve("В-городе-началась-весна");
+            Console.WriteLine(mystr);
+            Console.ReadLine();
         }
         public static string Resolve(string arg) 
         {
